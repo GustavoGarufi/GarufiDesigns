@@ -1,0 +1,165 @@
+.navbar{
+  font-family: 'Finger Paint', cursive;
+}
+nav{
+  z-index: 4;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.modular{
+  position: fixed;
+  z-index: -4;
+  display: inline;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+.hero {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-family: 'Finger Paint', cursive;
+  text-align: center;
+}
+.about{
+  position: relative;
+  background: rgb(249, 249, 249);
+  width: 100%;
+}
+
+.card{
+  margin: 24px 0;
+  padding: 16px;
+  border: lightgrey;
+  background-color: white;
+  color: rgb(41, 41, 41);
+}
+.card-img-top{
+  max-width: 100%;
+  max-height: 100%;
+}
+.portfolio{
+  position: relative;
+  /*bottom: 300%;*/
+  background: rgb(41, 41, 41);
+  color: white;
+  width: 100%;
+
+}
+.spacer{
+  position: relative;
+  height: 100vh;
+}
+.contact{
+  position: relative;
+  background: rgb(249, 249, 249);
+  width: 100%;
+}
+.modal{
+    z-index: 100;
+}
+.modal-dialog{
+  overflow-y: initial !important;
+  overflow-x: none;
+}
+.modal-body{
+  height: 250px;
+  overflow-y: auto;
+}
+.modal-backdrop {
+  z-index: 1;
+}
+img.img-responsive-height{
+  display: block;
+  width: 100%;
+  max-height: 100%;
+}
+p#contactp{
+  font-size: 1.5em
+}
+h3{
+  font-size: 3em;
+  text-decoration: none;
+}
+#gmail{
+  height: 120px;
+  /*border-bottom: 1px solid;*/
+  font-family: "Finger Paint", cursive;
+}
+a{
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+a:hover{
+  color: rgb(55, 55, 55);
+}
+#social{
+  display: block;
+  margin-top: 40px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mar{
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+#font{
+  font-family: "Finger Paint", cursive;
+  font-size: 3em;
+
+}
+.herotext{
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: auto;
+  height: auto;
+  font-size: 1.2em;
+}
+.centerme{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+h2{
+  font-family: 'Finger Paint', cursive;
+}
+h2.mobile{
+  font-size: 2em;
+}
+h2.desktop{
+  font-size: 3em;
+}
+.herotext > h1{
+    font-size: 4em;
+}
