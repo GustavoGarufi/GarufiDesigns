@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
@@ -45,7 +40,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin: 0 0 30px 0;
 }
-
+h5.author{
+  margin: 0px;
+  text-align: center;
+}
+h5.author > a{
+  text-decoration: underline;
+}
+h6.tags{
+  margin: 0px;
+  text-align: center;
+}
+h6.tags > a{
+  text-decoration: underline;
+}
 figure {
   margin-bottom: 2.5em;
   float: left;
