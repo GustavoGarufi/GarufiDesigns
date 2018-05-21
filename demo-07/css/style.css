@@ -210,7 +210,7 @@ p {
   margin: 0;
   padding: 0;
   font-family: "Playfair Display", serif;
-  font-size: 300px;
+  font-size: 180px;
   font-weight: 700;
   font-style: italic;
   color: #fff;
@@ -223,6 +223,12 @@ p {
     font-size: 100px;
   }
 }
+div.nav-logo{
+  height: 70px;
+}
+.nav-logo img{
+  margin-top: 0px;
+  }
 #fh5co-home .flexslider .fh5co-text h2 {
   margin: 0;
   padding: 0;
@@ -343,8 +349,9 @@ p {
 }
 .fh5co-main-nav .fh5co-logo a {
   position: relative;
-  top: -5px;
-  display: inline-block;
+  top: 10px;
+  display: inline;
+  z-index: 15;
 }
 .fh5co-main-nav .fh5co-menu-2 {
   text-align: left;
@@ -438,7 +445,7 @@ p {
 }
 #fh5co-about .fh5co-text p {
   line-height: 2;
-  color: #a99c92;
+  color: #ddd;
 }
 #fh5co-about .fh5co-text p span.firstcharacter {
   float: left;
@@ -565,7 +572,7 @@ p {
   margin-left: -32px;
 }
 #fh5co-featured .fh5co-heading .sub-heading {
-  color: #a99c92;
+  color: #ddd;
 }
 #fh5co-featured .fh5co-grid {
   display: -webkit-box;
