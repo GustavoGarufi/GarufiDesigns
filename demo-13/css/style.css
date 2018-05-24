@@ -200,6 +200,12 @@ h3.parallax-text{
 	font-size: 10em;
 	color: white;
 }
+h3.parallax-text-mobile{
+	padding-top: 80px;
+	text-align: center;
+	font-size: 6em;
+	color: white;
+}
 
 main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:90px}
 
