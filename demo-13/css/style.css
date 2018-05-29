@@ -1,6 +1,6 @@
-
+'Raleway'
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
-
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 html {
 
 	-ms-text-size-adjust: 100%;
@@ -121,13 +121,18 @@ a {
 
 }
 
+p {
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 300;
+}
+
 a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
 ::-moz-selection {background-color:#c09f80;color:#fff;text-shadow:none;}
 
 ::selection {background-color: #c09f80;color: #fff;text-shadow: none;}
 
-@font-face {font-family: 'Open Sans', sans-serif;}
+@font-face {font-family: 'Raleway', sans-serif;}
 
 /*===== Header ===*/
 
@@ -143,7 +148,7 @@ transition-duration: 0.6s;transition-property: all;transition-timing-function: e
 
 header[role="header"] nav ul{ display:none; position: fixed; z-index:60; text-align:center; width:100%; height:100%; top:0; left:0; right:0; background-color:rgba(255,255,255,0.8); padding:0; margin:0; padding-top:199px;}
 
-header[role="header"] nav ul > li{ font-weight:800; font-size:42px; display:block}
+header[role="header"] nav ul > li{ font-weight:300; font-size:42px; display:block}
 
 header[role="header"] nav ul > li > a{ display:block; line-height:72px; color:#404040}
 
@@ -199,12 +204,16 @@ h3.parallax-text{
 	text-align: center;
 	font-size: 10em;
 	color: white;
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
 }
 h3.parallax-text-mobile{
 	padding-top: 80px;
 	text-align: center;
 	font-size: 6em;
 	color: white;
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
 }
 
 main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:90px}
@@ -213,7 +222,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:20px}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:46px; line-height:53px; color:#404040; font-weight:800}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:46px; line-height:53px; color:#404040; font-weight:300}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:60px; color:#c09f80; padding-bottom:15px}
 
@@ -259,9 +268,9 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure,main[role="main-i
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ position:absolute; bottom:-50%; left:0; right:0; background-color:#c09f80; margin:0 69px; text-align:center; color:#FFF; padding-top:16px; padding-bottom:27px}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ font-size:21px; line-height:22px; font-weight:300}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h3{ font-size:21px; line-height:22px; font-weight:100}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ text-transform:uppercase; font-size:13px; line-height:14px; font-weight:bold}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5{ text-transform:uppercase; font-size:13px; line-height:14px; font-weight:200; font-family: 'Raleway',sans-serif;}
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,section.blog-content:hover article{ background-color:#c09f80; color:#FFF}
 
@@ -277,11 +286,11 @@ section.blog-content{ margin-bottom:29px}
 
 section.blog-content figure{ overflow:hidden; position:relative;background-color: rgba(255,255,255,0.4); cursor:pointer}
 
-section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:800; font-size:14px; line-height:18px; text-transform:uppercase; display:block; background-color:#c09f80; width:130px; height:130px; position:absolute; left:0; top:0; padding-top:41px; z-index:50}
+section.blog-content figure .post-date{ text-align:center; color:#FFF; font-weight:300; font-size:14px; line-height:18px; text-transform:uppercase; display:block; background-color:#c09f80; width:130px; height:130px; position:absolute; left:0; top:0; padding-top:41px; z-index:50}
 
 section.blog-content figure .post-date span{ font-size:50px; line-height:35px; display:block}
 
-section.blog-content  article{ font-size:21px; line-height:30px; color:#FFF;  font-weight:800; color:#343434; padding-left:42px; padding-top:33px; padding-bottom:31px;}
+section.blog-content  article{ font-size:21px; line-height:30px; color:#FFF;  font-weight:300; color:#343434; padding-left:42px; padding-top:33px; padding-bottom:31px;}
 
 section.blog-content:hover figure img{ opacity:0.5}
 
@@ -317,7 +326,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#c09f80; text-d
 
 .contat-from-wrapper textarea{ border-bottom:1px solid #bbbbbb; border-left:none; border-right:none; border-top:none; height:77px; margin-top:56px}
 
-.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:800; letter-spacing:2px; background-color:#c09f80; margin:41px auto; margin-bottom:0}
+.contat-from-wrapper input[type="submit"]{ display:block; border:none; outline:none; width:200px; line-height:60px; text-transform:uppercase; font-size:21px; color:#FFF; font-weight:300; letter-spacing:2px; background-color:#c09f80; margin:41px auto; margin-bottom:0}
 
 .contat-from-wrapper input[type="submit"]:hover{background-color:#f8524e}
 
@@ -325,9 +334,9 @@ article[role="pge-title-content"].contact-header p a:hover{color:#c09f80; text-d
 
 .work-details,.blog-details{ padding:0 69px; margin-top:73px}
 
-.work-details header h2{ color:#343434; font-size:36px; font-weight:800}
+.work-details header h2{ color:#343434; font-size:36px; font-weight:300}
 
-.work-details header a{ display:inline-block; color:#c09f80; font-size:18px;font-weight:800;padding-top:3px}
+.work-details header a{ display:inline-block; color:#c09f80; font-size:18px;font-weight:300;padding-top:3px}
 
 .work-details header a i{ color:#0d0d0d; padding-left:10px}
 
@@ -337,7 +346,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#c09f80; text-d
 
 .work-details p{ font-size:16px; color:#666666; line-height:30px; margin-bottom:20px; font-weight:300}
 
-.work-details p strong{ font-weight:800}
+.work-details p strong{ font-weight:300}
 
 .work-images{ margin-top:46px}
 
@@ -347,11 +356,11 @@ article[role="pge-title-content"].contact-header p a:hover{color:#c09f80; text-d
 
 .bog-header { padding-bottom:62px}
 
-.bog-header h3,.comments-pan h3,.commentys-form h4{ color:#404040;font-weight:800; padding-bottom:24px; display:block}
+.bog-header h3,.comments-pan h3,.commentys-form h4{ color:#404040;font-weight:300; padding-bottom:24px; display:block}
 
 .bog-header h3 span{ color:#c09f80}
 
-.bog-header h2{ font-size:36px; font-weight:normal}
+.bog-header h2{ font-size:36px; font-weight:100}
 
 .blog-details .enter-content{ margin-top:62px}
 
@@ -371,9 +380,9 @@ article[role="pge-title-content"].contact-header p a:hover{color:#c09f80; text-d
 
 .comments-reply li section .date-pan{ font-size:14px; line-height:18px; padding-bottom:25px}
 
-.comments-reply li section h4{font-weight:800; color:#404040; font-size:21px; margin-bottom:6px; margin-top:0}
+.comments-reply li section h4{font-weight:300; color:#404040; font-size:21px; margin-bottom:6px; margin-top:0}
 
-.comments-reply li section h4 a{ font-size:16px; color:#c09f80;font-weight:400; display:inline-block; padding-left:20px}
+.comments-reply li section h4 a{ font-size:16px; color:#c09f80;font-weight:100; display:inline-block; padding-left:20px}
 
 .reply-pan{ clear:both; display:block; margin-left:100px;padding-top:39px }
 
@@ -389,6 +398,6 @@ article[role="pge-title-content"].contact-header p a:hover{color:#c09f80; text-d
 
 .commentys-form input[type="text"]:focus,.commentys-form input[type="email"]:focus,.commentys-form input[type="url"]:focus,.commentys-form textarea:focus{ border-bottom-color:#000}
 
-.commentys-form input[type="button"]{ padding:0 36px; text-transform:uppercase; display:inline-block; font-size:21px; line-height:60px; color:#FFF; font-weight: bold; text-align:center; border:none; outline:none; background-color:#c09f80; margin-top:50px}
+.commentys-form input[type="button"]{ padding:0 36px; text-transform:uppercase; display:inline-block; font-size:21px; line-height:60px; color:#FFF; font-weight: 400; text-align:center; border:none; outline:none; background-color:#c09f80; margin-top:50px}
 
 .commentys-form input[type="button"]:hover{ background-color:#ff5c5c}
