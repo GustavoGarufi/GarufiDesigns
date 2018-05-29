@@ -27,6 +27,21 @@ input, textarea {
 
 }
 
+.icons{
+	text-align: center;
+	font-size: 2.6em;
+}
+.phases{
+	font-size: 1.2em;
+	font-weight: 300;
+	font-family: "Raleway", sans-serif;
+}
+.phases-div{
+	background-color: #c09f80;
+	color: white;
+	margin: 20px;
+}
+
 button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submit"] {
 
 	-webkit-appearance: button;
