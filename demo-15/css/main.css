@@ -395,6 +395,19 @@ header{
 	-moz-border-radius:3px;
 	border-radius:3px;
 }
+.nav-icon2 {
+	width:70px;
+	height:100px;
+	text-align:center;
+	position:absolute;
+	left:10%;
+	margin-left:-21px;
+	top:36px;
+	z-index:999;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
 .nav-icon i {
 	color:#fff;
 	line-height:32px;
