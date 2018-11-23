@@ -124,8 +124,9 @@ p{
   line-height: 21px;
 }
 img.fig-style{
-  max-width:300px;
+  max-width: 275px;
   float: right;
+  object-fit: contain;
 }
 
 .nav-pills .nav-link{
