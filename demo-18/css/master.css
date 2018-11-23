@@ -1,0 +1,268 @@
+#custom-navbar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%,#404668,#0c214d),linear-gradient(180deg,#404668,#404668);
+  box-shadow: 0 1px 3px -3px #000;
+}
+.logo-img{
+  padding-top: 2px;
+  float: left;
+  opacity: 1;
+
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.casino-online{
+  padding-left: 4px;
+  float: right;
+  color: #fcca36;
+  font-size: 26px;
+  letter-spacing: -1px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.casino-online-eu{
+  left: 8px;
+  top: 36px;
+  font-family: Montserrat,sans-serif;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 7px;
+  position: relative;
+  display: block;
+}
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='orange' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+/* change hamburger button border color */
+button.navbar-toggler.navbar-toggler-right {
+  border-color: yellow;
+}
+#dropdown-border{
+  border: 1px solid #fcca36;
+  border-radius: 10px;
+  margin-bottom: 5px; /* space to next menu item */
+  padding-bottom: 5px; /* space between text and border bottom */
+}
+#navbarDropdown{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fcca36;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.multi-col-content{
+  padding-top: 12px;
+}
+.multi-col-dropdown{
+  left: -312px;
+  width: 500px;
+  background-image: linear-gradient(180deg,#fff,#fff);
+  box-shadow: 0 0 6px -2px #000;
+  border-radius: 10px;
+  position: relative;
+}
+.dropdown-menu{
+  border: 1px solid rgba(0,0,0,0);
+  color: transparent;
+  background-color: transparent;
+}
+.dropdown-item-md{
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  font-family: Montserrat,sans-serif;
+  color: #fed138;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+#whiteout{
+  color: white;
+}
+.cards{
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+body{
+  background-image: linear-gradient(180deg,hsla(0,0%,94%,.91),hsla(0,0%,94%,.91));
+}
+h2{
+   color: #404765;
+   font-size: 30px;
+
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+}
+p{
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  color: #726f6f;
+  line-height: 21px;
+}
+img.fig-style{
+  max-width:376px;
+  float: right;
+}
+
+.nav-pills .nav-link{
+  margin-right: 0;
+  border-right: 1px solid #d6d6d6;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg,#f0f0f0,#f0f0f0);
+  box-shadow: 0 0 6px -3px #000;
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  color: #404668;
+}
+.nav-pills:hover .nav-link:hover{
+  background-image: linear-gradient(180deg,#404668,#404668);
+  color: #fed138;
+}
+.casino-article{
+  margin-top: 6px;
+}
+.feat-img{
+  border-bottom: 4px solid #fcca36;
+}
+.read-more{
+  top: 13px;
+  font-family: Montserrat,sans-serif;
+  color: #6e6565;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+h3{
+  padding-top: 30px;
+  color: #404767;
+  font-size: 14px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.btn-warning{
+  background-image: linear-gradient(180deg,#fcca36,#fcca36);
+  border-bottom: 4px solid #c7a02c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: Montserrat,sans-serif;
+  color: #404767;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.cards-side{
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+h4{
+  margin-top: 4px;
+  padding: 15px 15px;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#404767),to(#404767));
+  background-image: linear-gradient(180deg,#404767,#404767);
+  color: #fff;
+  font-weight: 700;
+  font-family: Montserrat,sans-serif;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+p.sidebar-text{
+  font-family: Montserrat,sans-serif;
+  color: #636363;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn-primary{
+  background-color: grey;
+  color: #404767;
+  font-size: 12px;
+  border: none;
+  border-radius: 0px;
+}
+.btn-primary:hover{
+  background-color: grey;
+  color: #404767;
+  border: none;
+  border-radius: 0px;
+  text-decoration: none;
+}
+.no-padding{
+  padding: none;
+}
+.padding-bot{
+  padding-bottom: 8px;
+}
+footer{
+  background-image: radial-gradient(circle farthest-corner at 50% 50%,#404668,#0c214d),linear-gradient(180deg,#404668,#404668);
+}
+h5{
+  padding-top: 10px;
+  float: none;
+  font-family: Montserrat,sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.footer-links{
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-anchor{
+  padding-top: 5px;
+  padding-left: 0;
+  color: #d1cfcf;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: Montserrat,sans-serif;
+}
+.footer-header{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 900;
+  font-family: Montserrat,sans-serif;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+p.footer-text{
+  padding-top: 10px;
+  color: #fff;
+  font-weight: 500;
+
+  font-family: Montserrat,sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
