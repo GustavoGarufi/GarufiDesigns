@@ -684,16 +684,19 @@ body.offcanvas .garufides-nav-toggle {
     }
 }
 
-.work:hover .desc {
+.work:hover .desc,
+.always-active.work .desc {
     opacity: 1;
 }
 
-.work:hover .desc h3 {
+.work:hover .desc h3,
+.always-active.work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
 
-.work:hover .desc span {
+.work:hover .desc span,
+.always-active.work .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
